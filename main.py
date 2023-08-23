@@ -6,7 +6,7 @@ def has_digit(password):
 
 
 def is_very_long(password):
-    return any(len(password) > 12 for elem in password)
+    return len(password) > 12 
 
 
 def has_letters(password):
